@@ -5,12 +5,7 @@ int main (int argc, char **argv) {
     int sq_sum = (limit * (limit + 1)) / 2;
     sq_sum *= sq_sum;
 
-    int sum_sq = 0;
-    int i;
-
-    for (i = 1; i <= limit; i++) {
-        sum_sq += i * i;
-    }
+    int sum_sq = (limit * (limit + 1) * ((2 * limit) + 1)) / 6;
 
     printf("Sum of squares from 1 to %d is: %d\n", limit, sum_sq);
     printf("Square of sums from 1 to %d is: %d\n", limit, sq_sum);
