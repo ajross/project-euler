@@ -9,7 +9,7 @@ int main (int argc, char **argv) {
 
     printf("Sum of squares from 1 to %d is: %d\n", limit, sum_sq);
     printf("Square of sums from 1 to %d is: %d\n", limit, sq_sum);
-    printf("Difference is: %d\n", sum_sq - sq_sum);
+    printf("Difference is: %d\n", sq_sum - sum_sq);
 
     return 0;
 }
